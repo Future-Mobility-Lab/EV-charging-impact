@@ -3,6 +3,10 @@
 This repository contains the code for the paper "How will electric vehicles affect traffic congestion and energy
 consumption: an integrated modelling approach" by Artur Grigorev, Tuo Mao, Adam Berry, Joachim Tan, Loki Purushothaman, Adriana-Simona Mihaita.
 
+You can find a working queue model in "queue_model.py" file.
+
+This EV charging station queue simulation program reads file "Northern_Sydney_EV_charger_list.csv" and outputs queue simulation results into file "q2080_2016_seq.csv". It relies on multiprocessing package to perform parallel simulation. 
+
 # Input parameters of the model:
 1. Duration of modeling (day, week, month)
 2. Number of plugs on EV stations
@@ -24,10 +28,6 @@ consumption: an integrated modelling approach" by Artur Grigorev, Tuo Mao, Adam 
 * Consumed electricity by hour [kWh]
 * Total waiting time (minutes) by hour
 * Overall Mean Service time/day'
-
-This EV charging station queue simulation program reads file "Northern_Sydney_EV_charger_list.csv" and outputs queue simulation results into file "q2080_2016_seq.csv". It relies on multiprocessing package to perform parallel simulation. 
-
-You can find a working queue model in "queue_model.py" file.
 
 ![queue model](https://github.com/Future-Mobility-Lab/EV-charging-impact/blob/main/queue-model.PNG "Title")
 
