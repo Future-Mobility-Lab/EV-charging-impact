@@ -13,3 +13,7 @@ To perform calculations for specific OD traffic flow (2016, OD15, OD30) change t
 
 The structure of the framework:
 ![queue model](https://github.com/Future-Mobility-Lab/EV-charging-impact/blob/main/framework.PNG "Title")
+
+The code to produce lineplots is in "lineplots.ipynb":
+
+![queue model](https://github.com/Future-Mobility-Lab/EV-charging-impact/blob/main/lineplot.PNG "Title")
