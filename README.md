@@ -3,11 +3,35 @@
 This repository contains the code for the paper "How will electric vehicles affect traffic congestion and energy
 consumption: an integrated modelling approach" by Artur Grigorev, Tuo Mao, Adam Berry, Joachim Tan, Loki Purushothaman, Adriana-Simona Mihaita.
 
+# Input parameters of the model:
+1. Duration of modeling (day, week, month)
+2. Number of plugs on EV stations
+3. Distribution of time intervals between arrivals
+4. Distribution of charging time: 80% of charge is a top, let 20% is a min
+5. Max queue size
+6. Power supply at EV charger: KW/h
+
+# Model output:
+* (O1) Mean queue length of an EV station [n]'] = HOURQUEUE[i]
+* (O2) Mean waiting time in queue at an EV station [hours]
+* (O3) Mean service time to charge at an EV station [hours]
+* (O4) Total time spent overall at an EV station [hours]
+* (O5) Total energy consumption of an EV station [kWh]
+* (O6) Maximum recorded queue length of an EV station [n]
+* (O7) Maximum waiting time in queue at an EV station [hours]
+* (O8) Maximum time spent overall at an EV station [hours]
+* (O9) Maximal energy consumption of an EV station [kW]
+* Consumed electricity by hour [kWh]
+* Total waiting time (minutes) by hour
+* Overall Mean Service time/day'
+
+This EV charging station queue simulation program reads file "Northern_Sydney_EV_charger_list.csv" and outputs queue simulation results into file "q2080_2016_seq.csv". It relies on multiprocessing package to perform parallel simulation. 
+
 You can find a working queue model in "queue_model.py" file.
 
 ![queue model](https://github.com/Future-Mobility-Lab/EV-charging-impact/blob/main/queue-model.PNG "Title")
 
-This EV charging station queue simulation program reads file "Northern_Sydney_EV_charger_list.csv" and outputs queue simulation results into file "q2080_2016_seq.csv". It relies on multiprocessing package to perform parallel simulation. 
+
 
 To perform calculations for specific OD traffic flow (2016, OD15, OD30) change the line: DICT['StationFlow'] = float(dt[dt.Name==N]['2016 volume']) at the "Setup" section (to 15 or 30).
 
