@@ -5,5 +5,5 @@ consumption: an integrated modelling approach" by Artur Grigorev, Tuo Mao, Adam 
 
 You can find a working queue model in "queue_model.py" file.
 
-![queue model](queue-model.png "Title")
+![queue model](https://github.com/Future-Mobility-Lab/EV-charging-impact/blob/main/queue-model.PNG "Title")
 
