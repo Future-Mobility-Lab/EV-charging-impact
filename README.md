@@ -43,3 +43,6 @@ The code to produce lineplots is in "lineplots.ipynb":
 ![lineplot](https://github.com/Future-Mobility-Lab/EV-charging-impact/blob/main/lineplot.PNG "Title")
 
 ![lineplot2](https://github.com/Future-Mobility-Lab/EV-charging-impact/blob/main/lineplot2.PNG "Title")
+
+The code to produce supplementary animation is in "anim.ipynb":
+![anim](https://github.com/Future-Mobility-Lab/EV-charging-impact/blob/main/EV-029.png "Title")
