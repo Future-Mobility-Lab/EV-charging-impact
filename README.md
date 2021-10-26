@@ -11,7 +11,7 @@ This EV charging station queue simulation program reads file "Northern_Sydney_EV
 1. Duration of modeling (day, week, month)
 2. Number of plugs on EV stations
 3. Distribution of time intervals between arrivals
-4. Distribution of charging time: 80% of charge is a top, let 20% is a min
+4. Distribution of charging time: normaly distributed between 20% and 80%.
 5. Max queue size
 6. Power supply at EV charger: KW/h
 
