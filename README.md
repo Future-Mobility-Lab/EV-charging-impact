@@ -33,7 +33,7 @@ This EV charging station queue simulation program reads file "Northern_Sydney_EV
 
 
 
-To perform calculations for specific OD traffic flow (2016, OD15, OD30) change the line: DICT['StationFlow'] = float(dt[dt.Name==N]['2016 volume']) at the "Setup" section (to 15 or 30).
+To perform calculations for specific OD traffic flow (2016, OD15, OD30) change the line: DICT['StationFlow'] = float(dt[dt.Name==N]['2016 volume']) at the "Setup" section (to 2016, 15 or 30).
 
 The structure of the framework:
 ![framework](https://github.com/Future-Mobility-Lab/EV-charging-impact/blob/main/framework.PNG "Title")
