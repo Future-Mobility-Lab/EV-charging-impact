@@ -1,7 +1,7 @@
 # EV-charging-impact
 
 This repository contains the code that has been used for the Queue modelling for the paper "How will electric vehicles affect traffic congestion and energy
-consumption: an integrated modelling approach" by Artur Grigorev, Tuo Mao, Adam Berry, Joachim Tan, Loki Purushothaman, Adriana-Simona Mihaita. The paper has been published and presented during the IEEE ITSC 2021 conference. The preprint is available by the link: https://arxiv.org/abs/2110.14064 .
+consumption: an integrated modelling approach" by Artur Grigorev, Tuo Mao, Adam Berry, Joachim Tan, Loki Purushothaman, Adriana-Simona Mihaita. The paper has been published and presented during the IEEE ITSC 2021 conference. The preprint is available: https://arxiv.org/abs/2110.14064 .
 
 You can find a working queue model in "queue_model.py" file.
 
